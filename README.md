@@ -51,3 +51,14 @@ to create version/commit all changes by git
 ''''
 git commit -m "message"
 ''''
+
+to send version or changes to github
+
+''''
+git push origin main
+''''
+
+to check remote url
+''''
+git remote -v
+''''
