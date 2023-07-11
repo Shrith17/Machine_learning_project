@@ -9,3 +9,45 @@ software and account Requirement.
  3. [GIT cli](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
  4. [Pycharm IDE](https://www.jetbrains.com/pycharm/download/?section=mac)
 
+creating conda environment 
+'''
+
+conda create -p venv python==3.7 -y
+'''
+
+'''
+conda activate venv/
+'''
+
+
+pip install -r requirements.txt
+''''
+
+to Add files to git
+'''
+git add .
+''''
+
+or
+''''
+
+git add <file_name>
+''''
+
+> NOTE: to ignore file or folder from git we can write name of file and folder in .gitignore file
+
+to check git status
+'''
+git status
+''''
+
+to check all version maintained by git
+''''
+
+git log
+''''
+
+to create version/commit all changes by git
+''''
+git commit -m "message"
+''''
