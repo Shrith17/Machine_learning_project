@@ -62,3 +62,16 @@ to check remote url
 ''''
 git remote -v
 ''''
+
+
+
+
+
+
+BUILD DOCKER IMAGE
+''''
+docker build -t <image_name>:<tagname> .
+''''
+
+> NOTE: image name for docker must be lowercase
+> 
